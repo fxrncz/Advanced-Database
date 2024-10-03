@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[Student]
+(
+	[idnumber] BIGINT NOT NULL PRIMARY KEY, 
+    [firstname] VARCHAR(50) NULL, 
+    [lastname] VARCHAR(50) NULL, 
+    [email] VARCHAR(50) NULL, 
+    [studentid] VARCHAR(100) NULL, 
+    [level] VARCHAR(50) NULL, 
+    [room] VARCHAR(50) NULL, 
+    [dateofbirth] DATETIME NULL, 
+    [homephone] VARCHAR(16) NULL, 
+    [mobilephone] VARCHAR(16) NULL, 
+    [address] VARCHAR(50) NULL, 
+    [city] VARCHAR(50) NULL, 
+    [state_province] VARCHAR(50) NULL, 
+    [zip_postal] VARCHAR(50) NULL, 
+    [country_region] VARCHAR(50) NULL, 
+    [webpage] VARCHAR(50) NULL, 
+    [notes] VARCHAR(100) NULL, 
+    [attachments] VARCHAR(50) NULL, 
+    [specialcircum] VARCHAR(50) NULL, 
+    [physicianname] VARCHAR(50) NULL, 
+    [phyphonenumber] VARCHAR(16) NULL, 
+    [allergies] VARCHAR(50) NULL, 
+    [medications] VARCHAR(50) NULL, 
+    [insucarrier] VARCHAR(50) NULL, 
+    [insunumber] VARCHAR(16) NULL
+)
